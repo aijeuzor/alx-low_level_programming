@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - 6-size.c
+* main -6 -size.c
 * Return: 0
 */
 int main(void)

@@ -9,11 +9,13 @@
 */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char low, e,q;
+e = 'e';
+q = 'q';
+for (low = 'a'; low <= 'z'; low++)
 {
-	if (letter != 'e' && letter != 'q');
-	putchar(letter);
+if (low != 'e' && low != 'q');
+putchar(low);
 }
 putchar('\n');
 return (0);

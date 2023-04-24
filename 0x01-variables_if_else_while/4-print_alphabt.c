@@ -5,7 +5,7 @@
 /**
 * main - 4-print_alphabt.c
 *
-* Return: (0)
+* Return:(0)
 */
 
 int main(void)

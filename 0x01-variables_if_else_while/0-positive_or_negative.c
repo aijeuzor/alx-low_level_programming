@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
 * main - 0-positive_or_negative.c

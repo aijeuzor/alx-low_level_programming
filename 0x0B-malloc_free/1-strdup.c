@@ -14,30 +14,30 @@ char *_strdup(char *str)
 
 {
 
-        char *aaa;
+char *aaa;
 
-        int i, r = 0;
-
-
-
-        if (str == NULL)
-
-                return (NULL);
-
-        i = 0;
-
-        while (str[i] != '\0')
-
-                i++;
-
-
-        aaa = malloc(sizeof(char) * (i + 1));
+int i, r = 0;
 
 
 
-        if (aaa == NULL)
+if (str == NULL)
 
-                return (NULL);
+return (NULL);
+
+i = 0;
+
+while (str[i] != '\0')
+
+i++;
+
+
+aaa = malloc(sizeof(char) * (i + 1));
+
+
+
+if (aaa == NULL)
+
+return (NULL);
 
 
 
